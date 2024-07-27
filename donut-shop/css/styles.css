@@ -90,3 +90,36 @@ p.lead {
 	right: -30px;
 }
 
+#story-excerpt {
+	width: 530px;
+	margin-right: 24px;
+	float: left;
+	font-size: 16px;
+}
+
+#best-donut {
+	background: url('../images/award.png') left center no-repeat;
+	padding: 30px 0 30px 130px;
+	width: 240px;
+	float: left;
+}
+
+#articles {
+	width: 370px;
+	float: left;
+	margin-right: 24px;
+}
+
+#feature-image {
+	width: 530px;
+	float: left;
+}
+
+hr {
+	border: none;
+	height: 33px;
+	width: 333px;
+	margin: 30px auto;
+	background: url('../images/divider.png') center center no-repeat;
+}
+
