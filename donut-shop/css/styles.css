@@ -1,7 +1,9 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300|Love+Ya+Like+A+Sister');
+
 body {
-	font-family: Arial, sans-serif;
-	line-height: 1.6;
-	color: #4b2707;
+	font-family: 'Open Sans', "Helvetica Neue", Arial, sans-serif;
+	font-size: 14px;
+	background: #f2f3ee url('../images/bg-tile.gif') top left repeat;
 }
 
 .container {
@@ -40,5 +42,51 @@ header.main nav ul li a {
 	content: "";
 	display: table;
 	clear: both;
+}
+
+
+
+h1, h2 {
+	font-family: 'Love Ya Like A Sister', cursive;
+	color: #d17f38;
+	font-size: 40px;
+	font-weight: normal;
+	line-height: 44px;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	padding: 0 0 20px;
+}
+
+h1 em {
+	color: #4b2707;
+	font-style: normal;
+}
+
+p.lead {
+	font-size: 30px;
+	font-weight: 300;
+	text-align: center;
+	margin: 10px 0;
+}
+
+#hero {
+	background: #e8c04f;
+}
+
+#hero .container {
+	position: relative;
+}
+
+#hero .large-ribbon {
+	height: 190px;
+	width: 150px;
+	background: url('../images/fresh-whole-ingredients.png') top left no-repeat;
+	text-indent: -9999px;
+	position: absolute;
+	top: -23px;
+	right: -30px;
 }
 
